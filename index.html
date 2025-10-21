@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora ARS ⇄ USD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora ARS ⇄ USD</h1>
+
+  <div class="contenedor">
+    <input type="number" id="cantidad" placeholder="Cantidad">
+
+    <select id="tipo">
+      <option value="oficial">Dólar Oficial</option>
+      <option value="blue">Dólar Blue</option>
+      <option value="bolsa">Dólar MEP</option>
+      <option value="contadoconliqui">Dólar CCL</option>
+      <option value="tarjeta">Dólar Tarjeta</option>
+      <option value="turista">Dólar Turista</option>
+      <option value="mayorista">Dólar Mayorista</option>
+      <option value="cripto">Dólar Cripto</option>
+    </select>
+
+    <select id="direccion">
+      <option value="ARS-USD">Peso → Dólar</option>
+      <option value="USD-ARS">Dólar → Peso</option>
+    </select>
+
+    <!-- 🔹 Nuevo selector para elegir la tienda -->
+    <select id="tienda">
+      <option value="">Sin tienda (solo conversión)</option>
+      <option value="steam">Steam</option>
+      <option value="xbox">Xbox</option>
+      <option value="appstore">App Store</option>
+      <option value="playstation">PlayStation</option>
+    </select>
+
+    <button onclick="convertir()">Convertir</button>
+    <div id="resultado"></div>
+  </div>
+
+  <footer>Datos actualizados automáticamente desde dolarapi.com 🇦🇷</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
