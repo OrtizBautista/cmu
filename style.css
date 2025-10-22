@@ -1,21 +1,18 @@
-
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background-image: url(/assets/background.jpg);
-      background-size: cover;         /* La imagen cubre todo el área disponible */
-      background-position: center;    /* Centra la imagen en la pantalla */
-     background-repeat: no-repeat;   /* No repite la imagen */
-     display: flex;                  /* Usamos Flexbox para centrar contenido */
-      justify-content: center;        /* Centra horizontalmente los elementos hijos */
-     align-items: center;            /* Centra verticalmente los elementos hijos */
-     min-height: 100vh;              /* Altura mínima = altura de la ventana */
-     margin: 0;                       /* Eliminamos márgenes por defecto */
-     padding: 20px;                  /* Espacio interno del body */
-     box-sizing: border-box;         /* Incluye padding en el cálculo de width/height */
-     flex-direction: column;         /* Los elementos se apilan en columna */
-     animation: fadeIn 1.5s ease-in-out;
+body{
+    background-image: url(./index/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: "Segoe UI", sans-serif;
 }
-
 h1 {
   background: linear-gradient(90deg, #292929, #ff0000);
   -webkit-background-clip: text;   /* Recorta el fondo al texto */
@@ -88,4 +85,7 @@ h1 {
       font-size: 13px;
       opacity: 0.8;
       color: white;
+    }
+    .placeholder{
+        color: white;
     }
