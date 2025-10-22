@@ -1,7 +1,7 @@
 
     body {
       font-family: "Segoe UI", sans-serif;
-      background-image: url(/assets/goku-de-dragon-ball_3840x2160_xtrafondos.com.jpg);
+      background-image: url(/assets/background.jpg);
       background-size: cover;         /* La imagen cubre todo el área disponible */
       background-position: center;    /* Centra la imagen en la pantalla */
      background-repeat: no-repeat;   /* No repite la imagen */
